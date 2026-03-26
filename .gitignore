@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+*.xlsm
+
+# Live/real data files — never commit these
+*_live.xlsx
+*_real.xlsx
+*raw_data*
+*REAL_DATA*
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# Node / web tooling (if dashboard added later)
+node_modules/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
